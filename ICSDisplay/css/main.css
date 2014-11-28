@@ -1,0 +1,103 @@
+/* Various */
+body
+{
+	font-family : "Trebuchet", sans-serif;
+	font-size : 11px;
+	margin : 30px;
+	color : #999;
+}
+
+#progressbarForm p
+{
+	margin-top : 5px;
+}
+
+h1
+{
+	color : #0d74a6;
+	letter-spacing : -1px;
+}
+
+/* Links */
+#progressbarForm a
+{
+	color : #999;
+}
+
+#progressbarForm a:hover
+{
+	color : #333333;
+}
+
+/* Fieldset , Legend */
+#progressbarForm fieldset
+{
+	margin-bottom : 5px;
+	border : #CCC 1px solid;
+	width : 260px;
+	padding : 10px 7px 15px 7px;
+	border-radius: 5px;
+}
+
+#progressbarForm fieldset legend
+{
+	padding : 0 7px;
+	border-left : #CCC 1px solid;
+	border-right : #CCC 1px solid;
+	font-size : 1.2em;
+	color : #999;
+	border-radius: 5px;
+}
+
+/* Calculation on dates */
+#progressbarForm .container
+{
+	width : 50px;
+	float : right;
+}
+
+#progressbarForm .removeDay
+{
+	width : 14px;
+	height : 14px;
+	background : url(../images/remove.png);
+	cursor : pointer;
+	float : right;
+	margin-right : 30px;
+	margin-top : -27px;
+}
+
+#progressbarForm .addDay
+{
+	width : 14px;
+	height : 14px;
+	background : url(../images/add.png);
+	cursor : pointer;
+	float : right;
+	margin-right : 5px;
+	margin-top : -27px;
+}
+
+/* Label */
+#progressbarForm label
+{
+	display : block;
+	width : 90px;
+	float : left;
+	text-align : right;
+	color : #0d74a6;
+	margin-top : 3px;
+}
+
+/* Input */
+#progressbarForm input
+{
+	margin-left : 20px;
+	width : 90px;
+	border : #CCC 1px solid;
+}
+
+/* Jquery datepicker */
+div.ui-datepicker{
+	font-size : 11px;
+}

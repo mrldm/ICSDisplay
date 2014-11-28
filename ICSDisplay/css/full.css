@@ -1,0 +1,204 @@
+body {
+	background-color:#000000;
+}
+
+#bloc1 {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:#ffffff;
+}
+
+#date {
+	display:inline-block;
+	float:left;
+	width:25%;
+	height:25%;
+	margin-left:15px;
+	margin-top:15px;
+	background-color:#5a38b5;
+	box-shadow:1px 1px 12px #000;
+}
+
+#jour {
+	font-family:Sertig;
+	font-size:600%;
+	float:right;
+	color:#fff;
+}
+
+#mois {
+	font-family:Sertig;
+	font-size:40px;
+	color:#fff;
+	padding-top:33%;
+	padding-left:5%;
+	display:inline-block;
+	float:left;
+}
+
+#annee {
+	font-family:Sertig;
+	font-size:60px;
+	color:#fff;
+	padding-left:14%;
+	display:inline-block;
+	float:left;
+}
+
+#date script {
+	width:20%;
+	height:20%;
+	text-align:center;
+}
+
+#salle {
+	padding-top: 20px;
+	display:inline-block;
+	float:left;
+	width:45%;
+	height:25%;
+	margin-left:15px;
+	margin-top:15px;
+	background-color:#da542d;
+	box-shadow:1px 1px 12px #000;
+}
+
+#meteo {
+	display:inline-block;
+	float:left;
+	width:25%;
+	height:25%;
+	margin-left:15px;
+	margin-top:15px;
+	background-color:#287bed;
+	box-shadow:1px 1px 12px #000;
+}
+
+#prof {
+	text-align:center;
+	display:inline-block;
+	float:right;
+	width:25%;
+	height:35%;
+	margin-right:19px;
+	margin-top:15px;
+	background-color:#287bed;
+	box-shadow:1px 1px 12px #000;
+	font-family: Sertig;
+	font-size: x-large;
+}
+#liste h4{
+	font-size: large;
+}
+#liste MARQUEE {
+	height: 80%;
+}
+#liste  {
+	display:inline-block;
+	float:left;
+	width:25%;
+	height:68%;
+	margin-left:15px;
+	margin-top:5px;
+	background-color:#009800;
+	box-shadow:1px 1px 12px #000;
+	font-family:Sertig;
+	font-size: 300%;
+	color:#fff;
+	text-align:center;
+	word-wrap:break-word
+}
+#cours {
+	display:inline-block;
+	float:left;
+	width:45%;
+	height:30%;
+	margin-left:15px;
+	margin-top:15px;
+	background-color:#8c0000;
+	box-shadow:1px 1px 12px #000;
+}
+#message {
+	position: absolute;
+	text-align:center;
+	display:inline-block;
+	top:38%;
+	right: 0%;
+	width:25%;
+	height:26%;
+	margin-right:19px;
+	margin-top:15px;
+	background-color:#ff9e00;
+	box-shadow:1px 1px 12px #000;
+	font-family: Sertig;
+	font-size: x-large;
+	color: white;
+}
+#attention img{
+	width: 80px;
+	height:auto;
+}
+#slidershow {
+	display:inline-block;
+	float:left;
+	width:45%;
+	height:230px;
+	margin-top:15px;
+	margin-left:15px;
+background:#F0A30A;
+	box-shadow:1px 1px 12px #000;
+	text-align: center;
+}
+#slidershow h2{
+	background: #F0A30A;
+	border-radius: 10px;
+	box-shadow:1px 1px 12px #000;
+	color: white;
+	font-family: Sertig;
+	padding: 4px;
+
+}
+#logo {
+	position:absolute;
+	bottom:6%;
+	right:6%;
+}
+
+#logo img {
+	width:200px;
+	height:auto;
+}
+
+@font-face {
+	font-family:Sertig;
+	src:url(./Sertig.otf) format("opentype");
+}
+
+.mito {
+	text-align:center;
+	font-size:60px;
+	color:#fff;
+	font-family:Sertig;
+}
+
+#heure {
+	text-align:center;
+	font-size:60px;
+	color:#fff;
+	font-family:Sertig;
+}
+
+.text {
+	text-align:center;
+	vertical-align: center;
+	font-size:5vw;
+	font-size:5vh;
+	color:#fff;
+	font-family:Sertig;
+}
+
+
+
